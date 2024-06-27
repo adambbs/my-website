@@ -8,24 +8,24 @@ const ltButton=document.querySelector('.lt-button');
 selectSchool(ltButton);
 
 champlainButton.addEventListener('mouseenter', ()=> {
-  champlainButton.innerHTML= '<img src="../images/page3/school-picture/logos/Champlain-college-2.png" class="champlain-logo-hover">';
+  champlainButton.innerHTML= '<img src="./images/page3/school-picture/logos/Champlain-college-2.png" class="champlain-logo-hover">';
   champlainButton.classList.add('champlain-button-hover');
 });
 
 champlainButton.addEventListener('mouseleave', ()=> {
-  champlainButton.innerHTML= '<img src="../images/page3/school-picture/logos/Champlain-college.png" class="champlain-logo">';
+  champlainButton.innerHTML= '<img src="./images/page3/school-picture/logos/Champlain-college.png" class="champlain-logo">';
   champlainButton.classList.remove('champlain-button-hover');
 });
 
 selectSchool(champlainButton);
 
 mcgillButton.addEventListener('mouseenter', ()=> {
-  mcgillButton.innerHTML= '<img src="../images/page3/school-picture/logos/Mcgill-2.png" class="mcgill-logo-hover">';
+  mcgillButton.innerHTML= '<img src="./images/page3/school-picture/logos/Mcgill-2.png" class="mcgill-logo-hover">';
   mcgillButton.classList.add('mcgill-button-hover');
 });
 
 mcgillButton.addEventListener('mouseleave', ()=> {
-  mcgillButton.innerHTML= '<img src="../images/page3/school-picture/logos/Mcgill.png" class="mcgill-logo">';
+  mcgillButton.innerHTML= '<img src="./images/page3/school-picture/logos/Mcgill.png" class="mcgill-logo">';
   mcgillButton.classList.remove('mcgill-button-hover');
 });
 
