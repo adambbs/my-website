@@ -1,0 +1,83 @@
+body{
+  font-family: Arial;
+  margin:0;
+}
+
+p{
+  margin-top :0;
+  margin-bottom: 0;
+}
+
+.upper-section{
+  background-color: rgb(10,0,30);
+  padding-bottom:50px;
+}
+
+.curriculum-title{
+  text-align: center;
+  color:white;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:30px;
+  font-weight:800;
+}
+
+.curriculum-establishments{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  min-width:710px;
+}
+
+.lt-button,
+.champlain-button,
+.mcgill-button{
+  height:300px;
+  width:300px;
+  margin-right:20px;
+  border:none;
+  position:relative;
+  overflow: none;
+  cursor:pointer;
+  background-color: white;
+  border-radius:25px;
+  overflow:hidden;
+}
+
+.champlain-logo,
+.mcgill-logo{
+  width:200px;
+}
+
+.lt-logo{
+  width:250px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-43%, -50%);
+}
+
+.lt-button:hover{
+  background-color: darkred;
+}
+
+.champlain-logo-hover{
+  width:240px;
+}
+
+.champlain-button-hover{
+  background-color: rgb(3, 126, 196);
+}
+
+.mcgill-logo-hover{
+  width:225px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+.mcgill-button-hover{
+  background-color: rgb(237, 27, 47);
+}
+

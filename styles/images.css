@@ -1,0 +1,37 @@
+.clickable-image{
+  cursor:pointer;
+}
+
+.image-container{
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: rgba(0,0,0,0.9);
+  z-index:500;
+}
+
+.displayed-image{
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  max-height:500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.close-container{
+  background-color: rgba(0,0,0,0);
+  border:none;
+  position:fixed;
+  top:0;
+  right:0;
+  cursor:pointer;
+}
+
+.close-x{
+  height:40px;
+}

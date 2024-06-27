@@ -1,0 +1,96 @@
+body{
+  font-family:Arial;
+  margin:0;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.upper-section{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(10, 0, 30);
+  color:white;
+  height:500px;
+  min-width:525px;
+}
+
+.profile-image{
+  width:900px;
+  height:100%;
+}
+
+.profile-picture{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.presentation-text{
+  padding:30px;
+}
+
+.bolded-text{
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom:35px;
+}
+
+.small-description{
+  font-size:25px;
+}
+
+.lower-section{
+  padding-top: 50px;
+  padding-bottom:50px;
+  min-width:535px;
+}
+
+.sections-title{
+  text-align:center;
+  font-size:25px;
+  font-weight: 800;
+  margin-bottom:30px;
+}
+
+.columns-sections{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.section{
+  margin:0px 20px;
+  background-color:white;
+  color:black;
+  font-size:20px;
+  font-weight: 600;
+  padding:20px;
+  border-color: rgb(10, 0, 30);
+  border-width:3px;
+  border-radius:32px;
+  border-style:solid;
+  cursor:pointer;
+  transition: color 0.15s, background-color 0.15s, margin 0.2s;
+}
+
+@media (max-width:700px){
+  .section{
+    margin:0px 10px;
+  }
+}
+
+.section:hover{
+  color:white;
+  background-color:rgb(10, 0, 30);
+}
+
+.section:active{
+  opacity:0.9;
+}
+

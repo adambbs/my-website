@@ -1,0 +1,64 @@
+body{
+  position:relative;
+}
+
+main{
+  position: absolute;
+  top:55px;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+header{
+  position:fixed;
+  top: 0;
+  z-index: 1;
+  background-color:white;
+  width:100%;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+
+.button-header-container{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin-right:50px;
+}
+
+.button-sections-container{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.header-button,
+.header-button-home{
+  padding:10px;
+  color:black;
+  background-color:white;
+  font-size:30px;
+  border:none;
+  cursor:pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.header-button{
+  position:relative;
+}
+
+.header-button:hover,
+.header-button-home:hover{
+  background-color:black;
+  color:white;
+}
+
+.button-selected{
+  position:absolute;
+  height:5px;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color:black;
+}
+
