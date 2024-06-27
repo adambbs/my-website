@@ -57,6 +57,11 @@
   object-position: center;
 }
 
+iframe.item-container {
+  width: 400px;
+  height: 225px;
+}
+
 .caption{
   padding-top:5px;
   padding-bottom:5px;
