@@ -15,7 +15,7 @@ document.querySelectorAll('img').forEach((image) => {
       const closeButton = document.createElement('button');
       closeButton.classList.add('close-image');
       closeButton.classList.add('close-container');
-      closeButton.innerHTML = '<img src="../images/closeX.png" class="close-image close-x">';
+      closeButton.innerHTML = '<img src="./images/closeX.png" class="close-image close-x">';
 
       newDiv.appendChild(newImage);
       newDiv.appendChild(closeButton);
