@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>AB - Hobbies</title>
+    <link rel="stylesheet" href="../styles/page2-hobbies/mainDisplay.css">
+    <link rel="stylesheet" href="../styles/page2-hobbies/countriesDisplay.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/images.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../styles/animation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="button-header-container">
+        <a href="./main.html"><button class="header-button">Home</button></a>
+        <div class="button-sections-container">
+          <a href="./hobbies.html">
+            <button class="header-button">
+              <div class="button-selected"></div>
+              Hobbies
+            </button>
+          </a>
+          <a href="./projects.html"><button class="header-button">School/Projects</button></a>
+          <a href="./contacts.html"><button class="header-button">Contacts</button></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="hobbies-title">Hobbies</div>
+      <div class="rows">
+        <div class="row-odd animation hidden animate__animated">
+          <div>
+            <img src="../images/page2/swimming.jpg" class="image-hobby clickable-image">
+          </div>
+          <div class="description-hobby">
+          <p class="description">I've been swimming since the age of 5. I took classes at first,
+            and then started going by myself at 16 because it's good cardio.</p>
+          </div>
+        </div>
+        <div class="row-even animation hidden animate__animated">
+          <div class="description-hobby">
+            <p class="description">I discovered the gym at the age of 16. I had no clue what I was doing at first,
+            but a lot of cool people helped me build a proper training routine. Anyways,
+            drop a <a href="../html-files/contacts.html#comment-section">comment</a> if I should start giving away training plans to my users. Click 
+            <a href="../downloaded-files/TrainingPlan.pdf" download="Training Plan">here</a> to checkout mine!</p>
+          </div>
+          <div>
+            <img src="../images/page2/training.jpg" class="image-hobby clickable-image">
+          </div>
+        </div>
+        <div class="row-odd animation hidden animate__animated">
+          <div >
+            <img src="../images/page2/movies.jpg" class="image-hobby clickable-image">
+          </div>
+          <div class="description-hobby">
+            <p class="description">I've always been a big movie binger. It's always distracting me from finishing school work
+            or other stuffs. Doing a movie marathon on a whole saga is addicting!!!</p>
+          </div>
+        </div>
+        <div class="row-even animation hidden animate__animated">
+          <div class="description-hobby">
+            <p class="description">The best experiences in my life happened when I was travelling. I didn't always have the
+            money to do so, but when I did, it was fantastic. Here's a brief summary of my best trips:</p>
+          </div>
+          <div class="right-section-trips">
+            <button class="country" data-id="algeria">
+              <img src="../images/page2/trips/flags/algeria.png" class="flags">
+            </button>
+            </button>
+            <button class="country" data-id="dominican-republic">
+              <img src="../images/page2/trips/flags/dominican-republic.png" class="flags">
+            </button>
+            <button class="country" data-id="usa">
+              <img src="../images/page2/trips/flags/USA.png" class="flags">
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="no-display-country algeria animate__animated">
+      <div class="frame-country">
+        <div class="spam-title">
+          Algeria
+        </div>
+        <div class="spam-information">
+          <div class="left-section-country">
+            <img src="../images/page2/trips/algeria-trip.jpg">
+          </div>
+          <div class="right-section-country">
+            <div class="description-country">
+              <p class="details">
+                My origins. Visiting my whole family for the first time felt so warming.
+                Even if the country's current situation is not ideal, I will never stop 
+                embracing its culture and its traditions
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="close-country">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="no-display-country dominican-republic animate__animated">
+      <div class="frame-country">
+        <div class="spam-title">
+          Dominican Republic
+        </div>
+        <div class="spam-information">
+          <div class="left-section-country">
+            <img src="../images/page2/trips/dr-trip.jpg">
+          </div>
+          <div class="right-section-country">
+            <div class="description-country">
+              <p class="details">
+                I got sick for some time, but it was still a good experience. I loved the tropical
+                environment and the exotic food of the Carribeans.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="close-country">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="no-display-country usa animate__animated">
+      <div class="frame-country">
+        <div class="spam-title">
+          United States of America
+        </div>
+        <div class="spam-information">
+          <div class="left-section-country">
+            <img src="../images/page2/trips/usa-trip.jpg">
+          </div>
+          <div class="right-section-country">
+            <div class="description-country">
+              <p class="details usa-details">
+                I went 3 times to the US. I went to Cape Cod twice with my family and it was so refreshing.
+                The East Coast really has its own culture.
+              </p>
+              <p class="details usa-details">
+                Going to New York with my friends was just as good. I discovered that travelling to the city is not
+                as bad as I thought. I would reccomend visiting the suburbs to discover their unique lifestyle.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="close-country">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../scripts/page2.js" type="module"></script>
+  </body>
+</html>
